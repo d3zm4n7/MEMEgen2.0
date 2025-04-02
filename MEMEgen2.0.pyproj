@@ -34,7 +34,15 @@
     <Folder Include="utils\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="arial.ttf" />
     <Content Include="auth\users.json" />
+    <Content Include="comic.ttf" />
+    <Content Include="impact.ttf" />
+    <Content Include="logs\admin_actions.log" />
+    <Content Include="lucon.ttf" />
+    <Content Include="times.ttf" />
+    <Content Include="users.json" />
+    <Content Include="watermark.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
