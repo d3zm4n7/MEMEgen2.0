@@ -211,14 +211,7 @@ class AuthWindow(tk.Tk):
         messagebox.showinfo("Success", "User registered!")
 
     def open_docs(self):
-        path = "PROJECT_STRUCTURE.md"
-        if os.path.exists(path):
-            try:
-                subprocess.Popen(["notepad", path])  # Windows
-            except Exception:
-                messagebox.showerror("Ошибка", "Не удалось открыть файл.")
-        else:
-            messagebox.showwarning("Документация", "Файл PROJECT_STRUCTURE.md не найден.")
+        webbrowser.open_new("https://github.com/d3zm4n7/MEMEgen2.0?tab=readme-ov-file#readme")
 
     def open_github(self):
         webbrowser.open_new("https://github.com/d3zm4n7/MEMEgen2.0")  # Подставим, когда будет реальный URL
